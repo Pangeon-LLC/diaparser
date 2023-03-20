@@ -15,10 +15,11 @@ from .. import __version__, __models_version__
 
 logger = logging.getLogger('diaparser')
 
-RELEASE = 'v1.1.2'
+RELEASE = 'v1.0'
 DOWNLOAD_URL = f'https://github.com/Unipisa/diaparser/releases/download/{RELEASE}'
 
-DEFAULT_CATALOG_URL = DOWNLOAD_URL
+CATALOG_RELEASE = 'v1.1.3'
+DEFAULT_CATALOG_URL = f'https://github.com/Pangeon-LLC/diaparser/{CATALOG_RELEASE}'
 DEFAULT_CATALOG_VERSION = __models_version__
 
 # set home dir for default
