@@ -15,7 +15,7 @@ from .. import __version__, __models_version__
 
 logger = logging.getLogger('diaparser')
 
-RELEASE = 'v1.0'
+RELEASE = 'v1.1.2'
 DOWNLOAD_URL = f'https://github.com/Unipisa/diaparser/releases/download/{RELEASE}'
 
 DEFAULT_CATALOG_URL = DOWNLOAD_URL
